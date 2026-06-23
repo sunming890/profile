@@ -1,1 +1,165 @@
-นายนภัสรพี อวยศิริ
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์นักศึกษา - นภัสรพี อวยศิริ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Prompt', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .header-bg {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 120px;
+        }
+
+        .avatar-container {
+            margin-top: -75px;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .profile-info {
+            padding: 25px 30px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .student-id {
+            font-size: 16px;
+            color: #7f8c8d;
+            font-weight: 500;
+            background: #f8f9fa;
+            display: inline-block;
+            padding: 3px 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #e9ecef;
+        }
+
+        .details-list {
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        .detail-item {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: flex-start;
+            border-bottom: 1px solid #f1f3f5;
+            padding-bottom: 10px;
+        }
+
+        .detail-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .label {
+            font-weight: 600;
+            color: #34495e;
+            width: 100px;
+            flex-shrink: 0;
+        }
+
+        .value {
+            color: #555555;
+            word-break: break-word;
+        }
+
+        .value a {
+            color: #2a5298;
+            text-decoration: none;
+        }
+
+        .value a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="header-bg"></div>
+        
+        <div class="avatar-container">
+            <img class="profile-img" src="34856.jpg" alt="รูปโปรไฟล์ นาย นภัสรพี อวยศิริ">
+        </div>
+
+        <div class="profile-info">
+            <h1 class="name">นาย นภัสรพี อวยศิริ</h1>
+            <div class="student-id">รหัสนักศึกษา: 694245020</div>
+
+            <div class="details-list">
+                <div class="detail-item">
+                    <span class="label">สาขาวิชา:</span>
+                    <span class="value">วิทยาการคอมพิวเตอร์</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">คณะ:</span>
+                    <span class="value">วิทยาศาสตร์และเทคโนโลยี</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">มหาวิทยาลัย:</span>
+                    <span class="value">มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">เบอร์โทรศัพท์:</span>
+                    <span class="value"><a href="tel:0650562415">065-056-2415</a></span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">อีเมล:</span>
+                    <span class="value"><a href="mailto:sun.uaysiri@gmail.com">sun.uaysiri@gmail.com</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
